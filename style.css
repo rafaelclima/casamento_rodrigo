@@ -175,97 +175,90 @@ div.data-local .local {
     text-shadow: 1px 1px 3px rgb(247, 242, 242);
 }
 
-@media (max-width: 480px)
+@media screen and (min-width: 360px) and (max-width: 760px)
 {
     .topo h1 {
         margin: 20px 0px;
-        font-size: 2.5em;
-    }
-    .topo h2 {
-        font-size: 1.2em;
-    }
-    .img-principal img {
-        width: 300px;
-        margin-top: -20px;        
-    }
-    .texto-destaque h1 {
-        font-size: 70px;
-    }
-    .texto-destaque h2 {
-        font-size: 50px;
-    }
-    .img-presente {
-        width: 125px;
-        height: 125px;
-    }
-    .data {
-        padding: 10px;
-    }
-    .local {
-        padding: 10px;
-    }
-}
-
-@media (max-width: 446px)
-{
-    .img-principal img {
-        width: 280px;
-        margin-top: -25px;        
-    }
-    .img-presente {
-        width: 115px;
-        height: 100px;
-        margin-bottom: 45px;
-    }
-}
-
-@media (max-width: 432px)
-{
-    .img-presente {
-        width: 120px;
-        height: 120px;
-        
-    }
-
-    .botao-presente p {
-        display: none;
-        
-    }
-}
-
-@media (max-width: 362px)
-{
-    .topo h1 {
         font-size: 1.9em;
     }
     .topo h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
+    }
+    .imagem {
+        margin-bottom: 10px;
+        align-content: center;
     }
     .img-principal img {
-        width: 200px;
-        margin-top: -80px;        
+        width: 180px;        
     }
-    
     .texto-destaque h1 {
-        font-size: 50px;
+        font-size: 3em;
     }
     .texto-destaque h2 {
-        font-size: 35px;
+        font-size: 2em;
         padding-top: 5px;
     }
-
-    .img-presente {
-        width: 120px;
-        height: 60px;
-        margin-bottom: 80px;
-        
+    .img-presente img {
+        width: 35%;
+        height: 10%;
+        margin: 10px auto 10px auto;
+        transform: rotate(-12deg);
     }
-
+    .botao-presente {
+        margin: 0;
+    }
     .botao-presente p {
-        display: none;
-        
+        margin: 0 auto;
+        font-family: 'Patrick Hand', cursive;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 1.2em;
+        text-shadow: 2px 1px 3px black;    
+    }
+    .botao-presente a {
+        box-shadow: 2px 2px 0px 1px #ffffff;
+        background:linear-gradient(to bottom, #1e555fe1 5%, #163D44 100%);
+        background-color: #163D44;
+        border-radius:5px;
+        border:1px solid #53c6dd;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:10px;
+        font-weight:bold;
+        padding:7px 20px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #528ecc;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .data p {
+        padding: 5px;
+        text-align: center;
+        font-family: 'Patrick Hand', cursive;
+        color: #ffffff;
+        font-weight: bolder;
+        line-height: 1em;
+        letter-spacing: .05em;
+        font-size: .8em;
+        text-shadow: 1px 1px 3px black;
+    }
+    .local p {
+        padding: 5px;
+        text-align: center;
+        font-family: 'Patrick Hand', cursive;
+        color: #ffffff;
+        font-weight: bolder;
+        line-height: 1em;
+        letter-spacing: .04em;
+        font-size: .8em;
+        text-shadow: 1px 1px 3px black;
     }
 }
+
+
 
 
 .topo {
